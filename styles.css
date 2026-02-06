@@ -63,13 +63,23 @@ body {
 
 /* POSICIONES DE LOS HOTSPOTS */
 .h1 {
-  top: 55%;
-  left: 30%;
+  top: 58%;
+  left: 38%;
 }
 
 .h2 {
-  top: 25%;
+  top: 32%;
   left: 55%;
+}
+
+.h3 {
+  top: 30%;
+  left: 30%;
+}
+
+.h4 {
+  top: 55%;
+  left: 65%;
 }
 
 /* COLOR DE CADA HOTSPOT */
@@ -84,6 +94,7 @@ body {
   left: 57%;
   background: rgba(60, 150, 200, 0.45); /* azul */
 }
+
 
 
 
