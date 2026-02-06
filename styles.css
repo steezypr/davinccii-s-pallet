@@ -15,11 +15,13 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  
 }
 
 .image-wrapper {
   position: relative;
-  display: inline-block;
+  max-width: 800px;   /* controla el tamaño */
+  width: 100%;
 }
 
 .hotspot {
@@ -45,6 +47,7 @@ body {
   top: 25%;
   left: 55%;
 }
+
 
 
 
