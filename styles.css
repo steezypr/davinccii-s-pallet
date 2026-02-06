@@ -16,5 +16,34 @@ body {
   max-height: 100%;
   display: block;
 }
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.hotspot {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0);
+}
+
+.hotspot:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* POSICIONES DE LOS HOTSPOTS */
+.h1 {
+  top: 55%;
+  left: 30%;
+}
+
+.h2 {
+  top: 25%;
+  left: 55%;
+}
+
 
 
