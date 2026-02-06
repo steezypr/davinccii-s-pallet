@@ -14,8 +14,7 @@ body {
 .scene-img {
   width: 100%;
   height: auto;
-  display: block;
-  
+  display: block;  
 }
 
 .image-wrapper {
@@ -34,9 +33,8 @@ body {
   border: 2px solid white;
 }
 
-
 .hotspot:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.6);
 }
 
 /* POSICIONES DE LOS HOTSPOTS */
@@ -49,6 +47,7 @@ body {
   top: 25%;
   left: 55%;
 }
+
 
 
 
