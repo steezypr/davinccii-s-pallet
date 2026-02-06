@@ -48,6 +48,19 @@ body {
   left: 55%;
 }
 
+/* COLOR DE CADA HOTSPOT */
+.h1 {
+  top: 58%;
+  left: 32%;
+  background: rgba(220, 40, 40, 0.45); /* rojo */
+}
+
+.h2 {
+  top: 28%;
+  left: 57%;
+  background: rgba(60, 150, 200, 0.45); /* azul */
+}
+
 
 
 
