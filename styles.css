@@ -25,16 +25,23 @@ body {
 
 .hotspot {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
   cursor: pointer;
-  background: rgba(255, 0, 0, 0.5); /* 🔴 visible */
-  border: 2px solid white;
+
+  border: 2px solid rgba(255,255,255,0.8);
+  backdrop-filter: blur(2px);
+
+  transform: translate(-50%, -50%);
+  transition: all 0.25s ease;
+
 }
 
 .hotspot:hover {
-  background: rgba(255, 255, 255, 0.6);
+  transform: translate(-50%, -50%) scale(1.15);
+  box-shadow: 0 0 18px rgba(255,255,255,0.6);
+
 }
 
 /* POSICIONES DE LOS HOTSPOTS */
@@ -60,6 +67,7 @@ body {
   left: 57%;
   background: rgba(60, 150, 200, 0.45); /* azul */
 }
+
 
 
 
