@@ -44,6 +44,23 @@ body {
 
 }
 
+/* COLORES DE LOS HOTSPOTS (según pintura) */
+.hotspot.red {
+  background: rgba(255, 70, 70, 0.55);
+}
+
+.hotspot.blue {
+  background: rgba(80, 190, 255, 0.55);
+}
+
+.hotspot.yellow {
+  background: rgba(255, 215, 80, 0.55);
+}
+
+.hotspot.white {
+  background: rgba(255, 255, 255, 0.6);
+}
+
 /* POSICIONES DE LOS HOTSPOTS */
 .h1 {
   top: 55%;
@@ -67,6 +84,7 @@ body {
   left: 57%;
   background: rgba(60, 150, 200, 0.45); /* azul */
 }
+
 
 
 
